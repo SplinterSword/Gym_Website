@@ -1,0 +1,43 @@
+#services_section{
+    text-align: center;
+    background: linear-gradient(90deg, #212121 0%, #656362 100%);
+    box-sizing: border-box;
+}
+#services_section h1{
+    color: #e89436;
+    font-size: 70px;
+    font-family: "Contrail One", sans-serif;
+    font-style: normal;
+    padding: 40px 0px;
+}
+#services_section h2{
+    color: white;
+    font-family: "Contrail One", sans-serif;
+    font-style: normal;
+    font-size: 35px;
+    padding: 30px 0px;
+}
+#first_row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#second_row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#services_section img{
+    width: 360px;
+    height: 262px;
+    border-radius: 50px;
+}
+
+@media (max-width:1171px) {
+    #first_row{
+        display: block;
+    }
+    #second_row{
+        display: block;
+    }
+}

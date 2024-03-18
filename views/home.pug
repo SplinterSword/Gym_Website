@@ -1,0 +1,35 @@
+extends base.pug
+block script
+block style
+    style
+        include ../static/home/hero/hero.css
+        include ../static/home/Services/services.css
+block content 
+    section#hero_section
+        div#cover
+            div#text_holder
+                h1#A_Place A PLACE WHERE
+                h1#Limits LIMITS ARE BROKEN
+                h2#Find_The_Best Find The Best Version Of Yourself Here
+    section#services_section
+        h1 Experience The Fitness Wave
+        div#first_row
+            div#Strength
+                img(src="../static/home/Services/Strength Training.jpg", alt="Strength_Training")
+                h2 Strength Training
+            div#Crossfit
+                img(src="../static/home/Services/Crossfit.jpg", alt="Crossfit")
+                h2 Crossfit
+            div#Yoga
+                img(src="../static/home/Services/Yoga.jpg", alt="Yoga")
+                h2 Yoga
+        div#second_row
+            div#Boxing
+                img(src="../static/home/Services/boxing.jpg", alt="boxing")
+                h2 Boxing
+            div#Calisthanics
+                img(src="../static/home/Services/Calisthanics.jpg", alt="Calisthanics")
+                h2 Calisthanics
+            div#Zumba
+                img(src="../static/home/Services/Zumba.jpg", alt="Zumba")
+                h2 Zumba

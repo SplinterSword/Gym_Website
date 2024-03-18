@@ -1,0 +1,45 @@
+doctype html 
+html
+    head 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Contrail+One&display=swap" rel="stylesheet">
+        title Fitness Track
+        style
+            include ../static/base/base.css
+        block script 
+        block style
+    body 
+        header
+            div#logo
+                img(src="../static/base/logo.png", alt="Fitness Track")
+        nav 
+            ul 
+                li #[a(href = '/') Home]
+                li #[a(href = '/About') About] 
+                li #[a(href = '/Plans') Plans]
+                li #[a(href = '/Contact Us') Contact Us]
+            div#button_container 
+                span#button_background
+                    a(href="/")#button Try Us For free  
+        block content
+        footer#footer 
+            div#footer_logo
+                img(src="../static/base/logo.png", alt="Fitness Track")
+                p 
+                    |A-12, <br>
+                    |East Krishna Nagar, <br>
+                    |Delhi-110031, <br>
+                    |India <br>
+                    <br>
+                    <br>
+                    | Phone: +91 98115 15924
+            div#Sitemap
+                h3 SITEMAP
+                ul 
+                    li #[a(href = '/') Home]
+                    li #[a(href = '/About') About] 
+                    li #[a(href = '/Plans') Plans]
+                    li #[a(href = '/Contact Us') Contact Us]
+            div#Follow
+                h3 FOLLOW US
