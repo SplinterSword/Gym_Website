@@ -17,14 +17,15 @@
 }
 #text_holder h1{
     color: #e89436;
-    font-size: 70px;
     font-family: "Contrail One", sans-serif;
     font-style: normal;
 }
 #A_Place{
+    font-size: 70px;
     margin: 27px 293px 0px 0px;
 }
 #Limits{
+    font-size: 70px;
     margin: 0px 0px 0px 100px;
 }
 #Find_The_Best{

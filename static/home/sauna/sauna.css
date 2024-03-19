@@ -1,0 +1,74 @@
+#Spa{
+    display: flex;
+    background: linear-gradient(270deg, #D9D9D9 0%, #737373 99.99%, #737373 100%);
+    padding: 100px 0px;
+    border-bottom: 6px solid #e89436;
+}
+#spa_text{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#spa_text div{
+    text-align: center;
+}
+#spa_text div h1{
+    font-family: 'Contrail One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    text-transform: capitalize;
+    color: #464646;
+}
+#spa_text div p{
+    font-family: 'Contrail One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+#spa_image{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15%;
+}
+#spa_image img{
+    filter: drop-shadow(24px 24px 0px rgba(0, 0, 0, 0.25));
+    border-radius: 40px;
+    transform: matrix(1, 0, -0.09, 1, 0, 0);
+    width: 360px;
+    height: 555px;
+}
+@media (max-width:1171px) and (min-width:450px){
+    #Spa{
+        display: block;
+    }
+    #spa_image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 60px 0px;
+    }
+    #spa_text{
+        display: block;
+        width: 100%;
+    }
+    #spa_image img{
+        filter: drop-shadow(24px 24px 0px rgba(0, 0, 0, 0.25));
+        border-radius: 40px;
+        transform: matrix(1.5, 0, 0, 1, 0, 0);
+        width: 360px;
+        height: 555px;
+    }
+}
+@media (max-width:445px) {
+    #spa_text div p{
+        font-size: 12px;
+    }
+}
