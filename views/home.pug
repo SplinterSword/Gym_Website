@@ -5,6 +5,7 @@ block style
         include ../static/home/hero/hero.css
         include ../static/home/Services/services.css
         include ../static/home/sauna/sauna.css
+        include ../static/home/review/review.css
 block content 
     section#hero_section
         div#cover
@@ -47,4 +48,20 @@ block content
                 p occaecat cupidatat non proident, sunt in culpa qui officia
                 p deserunt mollit anim id est laborum.
         div#spa_image
-            img(src="../static/home/sauna/interior-sauna.jpg", alt="")
+            img(src="../static/home/sauna/interior-sauna.jpg", alt="Sauna")
+    section#Reviews
+        h1#review_heading SEE WHAT ARE MEMBERS SAYING
+        div#review_holder
+            div.card
+                div.avatar_holder 
+                    img(src="../static/home/review/Girl 1.png", alt="Girl 1")
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+            div.card
+                div.avatar_holder 
+                    img(src="../static/home/review/Men 1.png", alt="Men 1")
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+            div.card
+                div.avatar_holder 
+                    img(src="../static/home/review/Girl 2.png", alt="Girl 2")
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. 
+                
