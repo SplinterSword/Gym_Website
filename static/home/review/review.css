@@ -16,11 +16,20 @@
     padding: 60px 0px;
 }
 .card{
+    position: relative;
+    bottom: 0px;
     width: 359px;
     height: 399px;
     background: #222222;
     border-radius: 15px;
     margin: 0px 0px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.card:hover{
+    position: relative;
+    bottom: 20px;
 }
 .avatar_holder{
     display: flex;
