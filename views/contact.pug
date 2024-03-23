@@ -1,0 +1,17 @@
+extends base.pug
+block script 
+block style
+    style
+        include ../static/contact/contact.css
+block content
+    div#contact
+        div#form
+            h1 SIGN UP AND CLAIM YOUR 7 DAY FREE TRIAL
+            form(action = "/contact" method = "POST")
+                input.fill(type="text" name="name" placeholder="Name")
+                input.fill(type="email", name="email" placeholder="Email")
+                input.fill(type="text", name="phone" placeholder="Phone Number")
+                input.fill(type="text", name="zip" placeholder="Zip Code")
+                input.fill(type="submit", value="Submit" id="submit")
+        div#gym_bros
+            img(src="../static/contact/gym_trainer.jpg", alt="Gym Bros")
