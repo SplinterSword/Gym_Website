@@ -1,0 +1,39 @@
+extends base.pug
+block script 
+block style
+    style
+        include ../static/plans/plans.css
+block content
+    div#plans
+        h1#plans_heading CHOOSE YOUR PLAN 
+        div#plans_cards
+            div.cards
+                h3 Free 
+                h2 0
+                ul
+                    li Top Trainers
+                    li Top of the Line Equipment
+                    li State of the Art Machines
+                div.button_container 
+                    span.button_background
+                        a(href="/").button Apply
+            div.cards
+                h3 Standard 
+                h2 6500/4 Months
+                ul
+                    li Top Trainers
+                    li Top of the Line Equipment
+                    li State of the Art Machines
+                div.button_container 
+                    span.button_background
+                        a(href="/").button Apply
+            div.cards
+                h3 Elite
+                h2 10000/1 Year
+                ul
+                    li Top Trainers
+                    li Top of the Line Equipment
+                    li State of the Art Machines 
+                div.button_container 
+                    span.button_background
+                        a(href="/").button Apply

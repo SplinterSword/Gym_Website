@@ -1,0 +1,102 @@
+#plans{
+    background: linear-gradient(90deg, #5E5368 0%, #000000 100%);
+}
+#plans h1{
+    text-align: center;
+    font-family: 'Contrail One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    text-transform: capitalize;
+    color: #E78B4A;
+    padding: 50px 0px;
+}
+#plans_cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0px;
+    padding-bottom: 100px;
+}
+.cards{
+    position: relative;
+    bottom: 0px;
+    width: 359px;
+    background: #2B2B2B;
+    border-radius: 15px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.cards:hover{
+    position: relative;
+    bottom: 20px;
+}
+.cards h3{
+    font-family: 'Contrail One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding-top: 45px;
+}
+.cards h2{
+    font-family: 'Contrail One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 20px 0px;
+}
+.cards ul{
+    padding-left: 45px;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.cards li{
+    font-family: 'Contrail One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+.cards .button_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+.cards .button_background{
+    background-color: #f4ea3c;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+.cards .button{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    color: black;
+    text-transform: capitalize;
+}
+.cards .button:hover{
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+}
+@media (max-width:1121px) {
+    #plans_cards{
+        display: block;
+    }
+    .cards{
+        margin: auto;
+        margin-bottom: 40px;
+    }
+}

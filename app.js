@@ -35,6 +35,12 @@ app.get('/', (req, res) => {
 app.get('/contact', (req, res) => {
     res.status(200).render('contact.pug');
 });
+app.get('/About', (req, res) => {
+    res.status(200).render('about.pug');
+});
+app.get('/Plans', (req, res) => {
+    res.status(200).render('plans.pug');
+});
 
 app.post('/contact',(req,res)=>{
     var myData = new contact(req.body);
